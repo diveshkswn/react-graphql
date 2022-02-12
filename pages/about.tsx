@@ -1,12 +1,11 @@
-import { GetStaticProps } from 'next/types';
+import { GetServerSideProps } from 'next/types';
 
-const aboutPage = (props : GetStaticProps) => {
-  console.log(props);
-
-  return (
-    <h1>About Page</h1>
-  );
-};
+const aboutPage = (props : GetServerSideProps) => (
+  <div className="MainContainer">
+    <h1>Hello</h1>
+    <h2>{props.name}</h2>
+  </div>
+);
 
 export default aboutPage;
 
