@@ -1,0 +1,32 @@
+.imgContainer {
+    position     : relative;
+    height       : 250px;
+    width        : 90%;
+    border-radius: 5px;
+    overflow     : hidden;
+    object-fit   : contain;
+
+}
+
+.heading {
+    text-align: center;
+}
+
+.CharacterCard {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    width         : 300px;
+    border        : 1px solid black;
+    border-radius : 20px;
+    padding       : 20px;
+    margin        : 20px;
+}
+
+
+.characterList {
+    justify-content: center;
+    width          : 100%;
+    display        : flex;
+    flex-wrap      : wrap;
+}
