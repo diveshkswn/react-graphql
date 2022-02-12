@@ -1,0 +1,6 @@
+{
+    "material-icon-theme.files.associations": {
+        "*.graphql.tsx": "graphql",
+        "*.graphql.jsx": "graphql",
+    }
+}
